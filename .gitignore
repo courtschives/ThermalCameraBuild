@@ -1,0 +1,30 @@
+# macOS metadata
+.DS_Store
+
+# build artifacts and generated files
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.exe
+*.bin
+.qmake.stash
+.qmake.cache
+moc_*
+ui_*
+
+# compiled binary output
+raspberrypi_video
+
+# local recordings and exported media that should never be committed
+recordings/
+*.avi
+*.AVI
+*.csv
+*.CSV
+
+# optional: ignore temp/editor files
+*.tmp
+*.log
+
